@@ -2,3 +2,17 @@
 	list-style-type: none;
 	display: inline;
 }
+
+.inline {
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	margin: 25px;
+}
+
+article.n-child :nth-child(even) {
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	color: green;
+}
